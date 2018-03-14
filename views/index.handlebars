@@ -1,0 +1,13 @@
+<form action="/vegetables/create" method="POST">
+    <input type="text" name="vege_name">
+    <input type="submit" value="devour">
+    </form>
+</form>
+
+<div id="container">
+    {{#each vegetables}}
+        {{this.vege_name}}
+        <hr>
+        <br>
+    {{/each}}
+</div>
