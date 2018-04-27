@@ -1,5 +1,5 @@
 {
-  "name": "mySQL_burger",
+  "name": "mysql_burger_app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
